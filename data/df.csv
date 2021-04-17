@@ -1,77 +1,77 @@
-,company,city,latitude,longitude
-0,Digg,San Francisco,37.764726,-122.394523
-1,Powerset,San Francisco,37.778613,-122.395289
-2,CastTV,San Francisco,37.780716,-122.393913
-4,Grockit,San Francisco,37.775196,-122.419204
-8,Wikia,San Francisco,,
-11,Dropbox,San Francisco,37.7909427,-122.4084994
-24,Gilt Groupe,New York,40.74727,-73.9800645
-34,cScape,London,51.523676,-0.107843
-36,ProofHQ,London,51.5320478,-0.011154
-37,Phreesia,New York,40.739794,-73.985878
-38,99designs,San Francisco,37.7955307,-122.4005983
-50,Sososher,London,51.500152,-0.126236
-57,PixelCrayons,New York,28.682042,77.087502
-62,Cutcaster,San Francisco,37.79851,-122.457454
-65,New York Designs,New York,40.743264,-73.923427
-73,TuneUp,San Francisco,37.7654195,-122.4119381
-80,Knewton,New York,40.7310476,-74.0078134
-90,appssavvy,New York,40.724604,-73.996876
-133,Ammunition Group,San Francisco,,
-136,Medialets,New York,40.756054,-73.986951
-156,Minted,San Francisco,37.797435,-122.403175
-160,StyleCard,New York,40.738137,-74.0058
-174,The Tin,London,51.52129,-0.10978
-178,Albion,London,,
-179,Squiz UK,London,51.521603,-0.083444
-193,Ecolect,San Francisco,37.776769,-122.410111
-198,ReTel Technologies,San Francisco,41.78942,-87.596232
-199,Foodzie,San Francisco,40.0173513,-105.2773493
-205,Shattered Reality Interactive,San Francisco,37.783046,-122.394067
-209,Fitbit,San Francisco,,
-213,AdRocket,San Francisco,37.775196,-122.419204
-216,Yammer,San Francisco,37.776246,-122.4179223
-217,GoodGuide,San Francisco,37.7983181,-122.4000032
-226,Milobox,San Francisco,37.792979,-122.421242
-240,Ecolect,San Francisco,37.776769,-122.410111
-245,ReTel Technologies,San Francisco,41.78942,-87.596232
-246,Foodzie,San Francisco,40.0173513,-105.2773493
-252,Shattered Reality Interactive,San Francisco,37.783046,-122.394067
-256,Fitbit,San Francisco,,
-260,AdRocket,San Francisco,37.775196,-122.419204
-263,Yammer,San Francisco,37.776246,-122.4179223
-264,GoodGuide,San Francisco,37.7983181,-122.4000032
-273,Milobox,San Francisco,37.792979,-122.421242
-321,FUSE,London,,
-322,Box UK,London,51.5107737,-0.1392447
-331,Fabian Rossano Studio,New York,40.740371,-74.004777
-355,Squarespace,New York,,
-357,WePC,San Francisco,,
-379,Movirtu,London,51.5499708,-0.1815999
-389,LoopNet,San Francisco,37.7759421,-122.3931139
-392,Which Web Design Company,London,51.5001524,-0.1262362
-414,Novalsys,New York,40.7283696,-73.9923918
-432,FK3,London,,
-433,SecondMarket,New York,40.705439,-74.012822
-463,Make It Rain,London,51.4626,-0.139082
-470,Eastmedia,New York,40.752409,-73.988676
-482,SoftFacade,New York,,
-487,Rhxo Technology Group,New York,40.762897,-73.974714
-499,Granicus,San Francisco,37.787445,-122.397847
-538,MindSmack,New York,40.758492,-73.989987
-561,Hirshorn Zuckerman Design Group,New York,40.756054,-73.986951
-563,quietrevolution,London,,
-567,Masterpiece,London,51.5219131,-0.0833747
-574,Idea Couture,San Francisco,,
-584,Boring,London,51.5183725,-0.0740678
-647,Bamboudesign,San Francisco,37.775087,-122.415199
-651,Red Engineering Design,London,51.5234209,-0.1398614
-662,Recyclebank,New York,40.7310476,-74.0078134
-695,DoubleVerify,New York,40.6454932,-73.9451011
-723,ACT Biotech,San Francisco,37.7871306,-122.4041075
-726,Covet Shop,New York,40.72874,-73.989324
-737,Synesis IT,New York,40.748873,-73.987106
-740,Ramp Up Tech,New York,40.746514,-73.993035
-779,OpTier,New York,40.754937,-73.985647
-787,Mobile Interactive Group,London,,
-793,New Toy,London,,
+company,city,latitude,longitude,zip_code
+Digg,San Francisco,37.764726,-122.394523,94107
+Powerset,San Francisco,37.778613,-122.395289,94107
+CastTV,San Francisco,37.780716,-122.393913,94107
+Grockit,San Francisco,37.775196,-122.419204,94107
+Wikia,San Francisco,,,94017-1889
+Dropbox,San Francisco,37.7909427,-122.4084994,94107
+Gilt Groupe,New York,40.74727,-73.9800645,10016-5602
+cScape,London,51.523676,-0.107843,EC1R 0DS
+ProofHQ,London,51.5320478,-0.011154,
+Phreesia,New York,40.739794,-73.985878,10010
+99designs,San Francisco,37.7955307,-122.4005983,94111
+Sososher,London,51.500152,-0.126236,
+PixelCrayons,New York,28.682042,77.087502,10003
+Cutcaster,San Francisco,37.79851,-122.457454,94129
+New York Designs,New York,40.743264,-73.923427,11104
+TuneUp,San Francisco,37.7654195,-122.4119381,94103
+Knewton,New York,40.7310476,-74.0078134,10011
+appssavvy,New York,40.724604,-73.996876,10012
+Ammunition Group,San Francisco,,,94111
+Medialets,New York,40.756054,-73.986951,
+Minted,San Francisco,37.797435,-122.403175,94111
+StyleCard,New York,40.738137,-74.0058,10014
+The Tin,London,51.52129,-0.10978,EC1N 8JH
+Albion,London,,,E16JJ
+Squiz UK,London,51.521603,-0.083444,EC2A 4LD
+Ecolect,San Francisco,37.776769,-122.410111,9403
+ReTel Technologies,San Francisco,41.78942,-87.596232,94105
+Foodzie,San Francisco,40.0173513,-105.2773493,94105
+Shattered Reality Interactive,San Francisco,37.783046,-122.394067,94107
+Fitbit,San Francisco,,,94105-1503
+AdRocket,San Francisco,37.775196,-122.419204,
+Yammer,San Francisco,37.776246,-122.4179223,94103
+GoodGuide,San Francisco,37.7983181,-122.4000032,94111
+Milobox,San Francisco,37.792979,-122.421242,94109
+Ecolect,San Francisco,37.776769,-122.410111,9403
+ReTel Technologies,San Francisco,41.78942,-87.596232,94105
+Foodzie,San Francisco,40.0173513,-105.2773493,94105
+Shattered Reality Interactive,San Francisco,37.783046,-122.394067,94107
+Fitbit,San Francisco,,,94105-1503
+AdRocket,San Francisco,37.775196,-122.419204,
+Yammer,San Francisco,37.776246,-122.4179223,94103
+GoodGuide,San Francisco,37.7983181,-122.4000032,94111
+Milobox,San Francisco,37.792979,-122.421242,94109
+FUSE,London,,,W1D 7AZ
+Box UK,London,51.5107737,-0.1392447,W1B 4BD
+Fabian Rossano Studio,New York,40.740371,-74.004777,10014
+Squarespace,New York,,,10013
+WePC,San Francisco,,,94110
+Movirtu,London,51.5499708,-0.1815999,NW3 6AL
+LoopNet,San Francisco,37.7759421,-122.3931139,94107
+Which Web Design Company,London,51.5001524,-0.1262362,
+Novalsys,New York,40.7283696,-73.9923918,10003
+FK3,London,,,SE1 7SJ
+SecondMarket,New York,40.705439,-74.012822,10011
+Make It Rain,London,51.4626,-0.139082,SW4 0BG
+Eastmedia,New York,40.752409,-73.988676,10018
+SoftFacade,New York,,,10010
+Rhxo Technology Group,New York,40.762897,-73.974714,10019
+Granicus,San Francisco,37.787445,-122.397847,94107
+MindSmack,New York,40.758492,-73.989987,10036
+Hirshorn Zuckerman Design Group,New York,40.756054,-73.986951,
+quietrevolution,London,,,EC1R 0AU
+Masterpiece,London,51.5219131,-0.0833747,EC2A 4LD
+Idea Couture,San Francisco,,,94111
+Boring,London,51.5183725,-0.0740678,E1 6PX
+Bamboudesign,San Francisco,37.775087,-122.415199,94103
+Red Engineering Design,London,51.5234209,-0.1398614,W1T 3NJ
+Recyclebank,New York,40.7310476,-74.0078134,10014
+DoubleVerify,New York,40.6454932,-73.9451011,10018
+ACT Biotech,San Francisco,37.7871306,-122.4041075,94103-2103
+Covet Shop,New York,40.72874,-73.989324,10003
+Synesis IT,New York,40.748873,-73.987106,10001
+Ramp Up Tech,New York,40.746514,-73.993035,10001
+OpTier,New York,40.754937,-73.985647,10118
+Mobile Interactive Group,London,,,SE1 7NW
+New Toy,London,,,SE1 7NX
