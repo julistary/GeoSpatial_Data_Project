@@ -20,4 +20,3 @@ def institution(df,city,map):
         Marker(**company,icon = icon ).add_to(map)
     return(map)
 
-

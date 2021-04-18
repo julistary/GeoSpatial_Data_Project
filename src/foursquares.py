@@ -18,7 +18,7 @@ def f_call(city,query):
         "v": "20180323",
         "ll": f"{city.get('coordinates')[0]},{city.get('coordinates')[1]}",
         "query": query, 
-        "limit": 100    
+        "limit": 150    
     }
     return requests.get(url= url_query, params = params).json()
 
@@ -39,7 +39,7 @@ def call_to_df(list_):
     for diccionario in lista_:
         temporal = {
             "name": diccionario.get("name"),
-            "location": {"type": "Point", "coordinates": [diccionario.get("latitude"), diccionario.get("longitude")]}
+            "location": {"type": "Point", "coordinates": [diccionario.get("longitude"), diccionario.get("latitude")]}
 
         }
         documentos.append(temporal)
@@ -47,6 +47,7 @@ def call_to_df(list_):
 
     df = pd.DataFrame(documentos)
     df.head()
+ 
     return df
 
 
