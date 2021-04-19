@@ -30,3 +30,34 @@ def column_point(df):
     return coordinates
 
     
+def kepler_cleaning(df_places,df_final):
+    """
+    Prepares and concatenates the dataframes so that it can be plotted on a Kepler
+    Args:
+        df_places(df): dataframe that will be plotted
+        df_final(df):  dataframe that will also be plotted
+    Returns:
+        The new dataframe cleaned
+    """
+    df_places.drop(['_id'], axis = 1, inplace = True)
+
+    df_places.head()
+
+    list(df_final.geometry)[0]
+
+    df_final.head()
+    new_row = {'name':'Gaming Company', 'location': list(df_final.geometry)[0], 'place' : 'company', 'coordinates' : [list(df_final.geometry)[0]['coordinates'][1], list(df_final.geometry)[0]['coordinates'][0]]}
+    df_places = df_places.append(new_row, ignore_index=True)
+
+    df_places.tail()
+
+    latit = []
+    longit = []
+    for coord in list(df_places['coordinates']):
+        latit.append(coord[0])
+        longit.append(coord[1])
+
+    df_places['latitude'] = latit
+    df_places['longitude'] = longit
+
+    return df_places
