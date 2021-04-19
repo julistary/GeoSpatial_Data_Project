@@ -1,0 +1,2 @@
+,company,city,latitude,longitude,geometry,party,starbucks,school,vegan,basket,party_grades,starbucks_grades,school_grades,vegan_grades,basket_grades,weighted_party_grades,weighted_starbucks_grades,weighted_school_grades,weighted_vegan_grades,weighted_basket_grades,weighted_result
+38,Box UK,London,51.5107737,-0.1392447,"{'type': 'Point', 'coordinates': [-0.1392447, 51.5107737]}",27,23,24,26,0,3,3,3,3,0,0.75,0.75,0.75,0.75,0.0,3.0

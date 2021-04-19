@@ -12,6 +12,14 @@ tok2= os.getenv("tok2")
 url_query = 'https://api.foursquare.com/v2/venues/explore'
 
 def f_call(city,query):
+    """
+    Makes calls to the foursquare API
+    Args:
+        city (point): coordinates of the city in type point where the request is to be made 
+        query (string): the site to be searched 
+    Returns:
+        The request as a list
+    """
     params = {
         "client_id": tok1,
         "client_secret": tok2,
@@ -23,6 +31,13 @@ def f_call(city,query):
     return requests.get(url= url_query, params = params).json()
 
 def call_to_df(list_):
+    """
+    Transforms the list obtained from the request to a dataframe     
+    Args:
+        list_: the request to foursquare as a list
+    Returns:
+        The request as a list
+    """
     lista_ = []
     data = list_.get("response").get("groups")[0].get("items")
     name = []
