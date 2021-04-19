@@ -1,4 +1,4 @@
-# 🌏🌍🌎 GeoSpatial Data Project 🌏🌍🌎
+# 🌏🌍🌎 GEOSPATIAL DATA PROJECT 🌏🌍🌎
 
 <img width=500 src=https://media.giphy.com/media/l378asbpIR5DTsdqg/giphy.gif>
 
