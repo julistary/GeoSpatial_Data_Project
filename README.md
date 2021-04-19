@@ -29,7 +29,7 @@ The location has to cover more or less this requirements:
 * The office dog—"Dobby" needs a hairdresser every month. Ensure there's one not too far away.
 
 ## Tools ⚙️
-The tools to be used are functions, string operations, pandas, mongo queries and geoqueries, requests from APIs, plotting maps etc. 
+The tools to be used are functions, string operations, pandas, mongo queries and geoqueries, requests from APIs, plotting maps, error handling etc. 
 
 ## Libraries 👩🏼‍🏫
 - [Pandas](https://pandas.pydata.org/docs/)

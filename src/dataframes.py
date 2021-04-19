@@ -1,3 +1,6 @@
+import numpy as np 
+import pandas as pd
+
 def vc_to_dict(column):
     """
     Converts the value_counts of a column of the dataframe to a dictionary 
@@ -33,3 +36,35 @@ def create(df,column,list_):
         The subdataframe
     """
     return df[df[column].isin(list_)]
+
+def new_df(companies_filtered):
+    """
+    Creates a new dataframe with the companies filtered and their coordinates
+    Args:
+        companies_filtered (list): where the data will be taken from 
+    Returns:
+        The new dataframe
+    """
+    name = []
+    city = []
+    latitude = []
+    longitude = []
+    zip_code = []
+    for i in companies_filtered:
+        name.append(i['name'])
+        try: 
+            if i['offices'][0]['city'] == '':
+                city.append(np.nan)
+            else:
+                city.append(i['offices'][0]['city'])
+            latitude.append(i['offices'][0]['latitude'])
+            longitude.append(i['offices'][0]['longitude'])
+        except:
+            city.append(np.nan)
+            latitude.append(np.nan)
+            longitude.append(np.nan)
+            zip_code.append(np.nan)
+    dict_ = {'company' : name, 'city' : city, 'latitude' : latitude, 'longitude': longitude}
+    companies_df = pd.DataFrame.from_dict(dict_, orient='columns')
+    
+    return companies_df
