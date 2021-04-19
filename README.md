@@ -28,6 +28,7 @@ The location has to cover more or less this requirements:
 * If you want to make the maintenance guy happy, a basketball stadium must be around 10 Km.
 * The office dog—"Dobby" needs a hairdresser every month. Ensure there's one not too far away.
 
+## Tools ⚙️
 The tools to be used are functions, string operations, pandas, mongo queries and geoqueries, requests from APIs, plotting maps etc. 
 
 ## Libraries 👩🏼‍🏫
