@@ -58,3 +58,12 @@ Then, (thanks to the foursquare API) some establishments that meet employee pref
 Once all these sites located, for each selected company in the 3 cities, it is looked at how many of these sites there are nearby. 
 
 To choose the final location, a weighted score is given based on how many sites are close by and the importance of having these sites close by. The one with the best score is selected. 
+
+## Content of the repository 👀
+
+- Src with the functions defined and documented
+- Jupyter Notebooks with the main programs
+- Environment.yml and requirements.txt
+- Data folder with the dataframes created
+- Json folder with the jsons created (and imported to MongoDB)
+- Maps folder with the maps created 
