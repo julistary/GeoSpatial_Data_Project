@@ -61,7 +61,7 @@ To choose the final location, a weighted score is given based on how many sites 
 
 ## Content of the repository 👀
 
-- Src with the functions defined and documented
+- Src folder with the functions defined and documented
 - Jupyter Notebooks with the main programs
 - Environment.yml and requirements.txt
 - Data folder with the dataframes created
