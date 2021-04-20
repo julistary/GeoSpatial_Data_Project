@@ -75,13 +75,14 @@ def places_counts(coordinates,df):
     return df
 
 def best_option(df):
-     """
+    """
     Creates a dataframe with the best option
     Args:
         df (df): the dataframe where the information is stored
     Returns:
         The new dataframe
     """
+    
     df.weighted_result.max()
 
     df_ = [df['weighted_result'] == df.weighted_result.max()]
