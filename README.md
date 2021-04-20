@@ -53,7 +53,7 @@ From a list of 18.8K companies, design and tech startups with a high net worth a
 
 Once this pre-selection is done, the cities chosen will be the top 3 cities with the highest number of companies. 
 
-Then, (thanks to the foursquare API) some establishments that meet employee preferencesin the 3 cities are located. 
+Then, (thanks to the foursquare API) some establishments that meet employee preferences in the 3 cities are located. 
 
 Once all these sites located, for each selected company in the 3 cities, it is looked at how many of these sites there are nearby. 
 
