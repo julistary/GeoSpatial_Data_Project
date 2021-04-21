@@ -68,7 +68,5 @@ To choose the final location, a weighted score is given based on how many sites 
 - Json folder with the jsons created (and imported to MongoDB)
 - Maps folder with the maps created 
 
-## Further lines
-- Try folium.features.CustomIcon("....png")
-- More sophisticated selection of locations (give value according to proximity)
+
 
